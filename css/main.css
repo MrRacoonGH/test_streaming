@@ -22,14 +22,20 @@ header {
     justify-content: center;
 }
 
-
-.profil {
+main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    margin-top: 98px;
+}
+
+.profil {
+    align-items: center;
+    justify-content: center;
 }
 
 .profil-name {
+    font-family: "Inter", serif;
     color: white;
+    font-size: 14px;
 }
