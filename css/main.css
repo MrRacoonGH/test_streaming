@@ -13,6 +13,15 @@ header {
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
+    padding-top: 50px;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 98px;
 }
 
 .header-logo {
@@ -22,20 +31,28 @@ header {
     justify-content: center;
 }
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 98px;
-}
 
-.profil {
-    align-items: center;
-    justify-content: center;
-}
 
 .profil-name {
     font-family: "Inter", serif;
     color: white;
     font-size: 14px;
+}
+
+.profile-selection {
+    display: flex;
+}
+
+@media screen and (min-width: ) {
+    body {
+        
+    }
+    
+}
+
+@media  screen and (max-width: 388px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
 }
